@@ -21,7 +21,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>User Card Submission</h1>
+      <h1 style={{ textAlign: "center", marginTop: "20px" }}>User Card Submission</h1>
+
       <UserForm onUserAdded={addUser} />
       <UserCards users={users} setUsers={setUsers} />
     </div>

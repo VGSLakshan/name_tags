@@ -36,3 +36,37 @@
   color: #555;
   line-height: 1.4;
 }
+
+.user-card button {
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Edit button */
+.user-card button:nth-of-type(1) {
+  background-color: #3498db;
+  color: white;
+}
+
+.user-card button:nth-of-type(1):hover {
+  background-color: #2980b9;
+  transform: translateY(-1px);
+}
+
+/* Delete button */
+.user-card button:nth-of-type(2) {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.user-card button:nth-of-type(2):hover {
+  background-color: #c0392b;
+  transform: translateY(-1px);
+}
